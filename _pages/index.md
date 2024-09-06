@@ -13,7 +13,7 @@ permalink: /
 
   <h2>{{note.title}}</h2>
   <div class="muted small pb font-ui">
-    <time datetime="{{ note.last_modified_at | date_to_xmlschema }}">{{ note.last_modified_at | date: "%B %-d, %Y"}}</time>
+    {% if note.date %} <time datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: "%B %-d, %Y"}}</time>{%else%}<time datetime="{{ note.last_modified_at | date_to_xmlschema }}">{{ note.last_modified_at | date: "%B %-d, %Y"}}</time>{% endif%}
     {% if note.read_time %} · <span class="reading-time" title="Estimated read time">{{ note.read_time }}</span>{% endif %}
   </div>
   <div class="small muted">
