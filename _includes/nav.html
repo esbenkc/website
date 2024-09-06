@@ -1,3 +1,24 @@
-<div>
-    <a class="internal-link" href="{{ site.baseurl }}/"><b>{{ site.title }}</b></a>
-</div>
+<span class="flex-grow">
+  <a class="internal-link plain" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  {% if page.category %}
+  <span class="faint">/</span>
+  <a class="muted plain" href="{{ site.baseurl }}{{page.url}}"
+    >{{ page.category | split: "-" | join: " " | capitalize }}</a
+  >
+  {% endif %}
+</span>
+<span class="flex-shrink ssr">
+  <a href="/about" class="muted plain">About</a>
+  <a href="/now" class="muted plain ssl mh">Now</a>
+</span>
+<span
+  id="theme-toggle"
+  title="Toggle dark mode"
+  aria-label="Toggle dark mode"
+  type="button"
+  role="switch"
+  aria-checked="true"
+>
+  <div class="theme-toggle-slide"></div>
+  <div class="theme-toggle-switch"></div>
+</span>

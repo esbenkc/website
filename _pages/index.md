@@ -1,33 +1,29 @@
 ---
 layout: page
-title: Home
+title: Esben Kran
 id: home
 permalink: /
 ---
 
-# Welcome! 🌱
+{% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
+{% for note in recent_notes limit: 1 %}
 
-<p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
-</p>
+<p class="muted font-ui"><a class="internal-link muted" href="{{note.url}}">Latest</a></p>
+{% capture note_content %}
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
+  <h2>{{note.title}}</h2>
+  <div class="muted small pb font-ui">
+    <time datetime="{{ note.last_modified_at | date_to_xmlschema }}">{{ note.last_modified_at | date: "%B %-d, %Y"}}</time>
+    {% if note.read_time %} · <span class="reading-time" title="Estimated read time">{{ note.read_time }}</span>{% endif %}
+  </div>
+  <div class="small muted">
+    {{ note.content | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | truncate: 125 }} Keep&nbsp;reading&nbsp;→
+  </div>
+{% endcapture %}
+<div>
+<a href="{{ note.url }}" class="internal-link plain">
+  {{ note_content | strip }}
+</a>
+</div>
 
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
-
-<strong>Recently updated notes</strong>
-
-<ul>
-  {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
-  {% for note in recent_notes limit: 5 %}
-    <li>
-      {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-
-<style>
-  .wrapper {
-    max-width: 46em;
-  }
-</style>
+{% endfor %}

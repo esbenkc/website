@@ -2,12 +2,56 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    <nav>{% include nav.html %}</nav>
-    <div class="wrapper">
+    <script>
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.querySelector("body").classList.add("theme-dark");
+      }
+    </script>
+    <nav class="flex align-center font-ui">{% include nav.html %}</nav>
+    <div class="wrap">
       <main>{{ content }}</main>
       <footer>{% include footer.html %}</footer>
     </div>
 
-    {% include link-previews.html wrapperQuerySelector="content" %}
+    <script>
+      var darkModeToggle = document.querySelector("#theme-toggle");
+
+      function toggleTheme() {
+        document.body.classList.toggle("theme-dark");
+        updateThemeState();
+      }
+
+      function updateThemeState() {
+        let isDarkMode = document.body.classList.contains("theme-dark");
+        let theme = isDarkMode ? "dark" : "light";
+        localStorage.setItem("theme", theme);
+        darkModeToggle.setAttribute("aria-checked", isDarkMode.toString());
+      }
+
+      function initializeTheme() {
+        let isDarkMode = document.body.classList.contains("theme-dark");
+        darkModeToggle.setAttribute("aria-checked", isDarkMode.toString());
+      }
+
+      darkModeToggle.addEventListener("click", toggleTheme);
+
+      window.addEventListener("keydown", function (e) {
+        if (
+          document.activeElement.tagName === "INPUT" ||
+          document.activeElement.tagName === "TEXTAREA"
+        ) {
+          return;
+        }
+        if ((e.key === "d" || e.key === "D") && !e.ctrlKey && !e.metaKey) {
+          toggleTheme();
+        }
+      });
+
+      initializeTheme();
+    </script>
   </body>
 </html>
