@@ -5,6 +5,8 @@ id: home
 permalink: /
 ---
 
+Welcome to the future — we're at a crossroads. We face an AI ban and a surveillance dystopia or incredible luck. I'm here to bet on the present, to create and execute positive visions for a secure AI future. And I implore you to join me.
+
 {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
 {% for note in recent_notes limit: 1 %}
 

@@ -14,11 +14,11 @@ I'm Esben, currently the co-director of [Apart](https://apartresearch.com).
 - [Github](https://github.com/esbenkc)
 - [What is up?](/now)
 
-![MRI scan rotating](assets/brain_time.gif)
+<img src="assets/brain_time.gif" style="width: 5rem;" alt="MRI scan rotating"/>
 
-For journalists:
+For journalists: [Bio & images](https://kran.ai/pro)
 
-- [bio & images](https://kran.ai/pro)
+If you think it would be valuable for us to connect, [let us have a chat](https://zcal.co/esben/15min) (please remember to write a reason). You can contact me at esben at kran dot ai. I'm very open to [anonymous feedback](https://admonymous.co/esbenkran).
 
 <script>
 
