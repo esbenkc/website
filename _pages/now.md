@@ -6,4 +6,4 @@ permalink: /now
 
 ## Innovating how AI safety research is done
 
-I'm the co-director of [Apart](https://apartresearch.com), a decentralized collective of AI safety researchers doing research in new ways. I'm quite invested in changing the world with technical ideas in AI safety.
+I'm the co-director of [Apart](https://apartresearch.com), a decentralized collective of AI safety researchers making research happen in new ways. I'm currently quite invested in making technical AI safety scale into for-profit companies _at scale_.
