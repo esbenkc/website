@@ -12,9 +12,8 @@ I'm the co-director of [Apart](https://apartresearch.com), a decentralized colle
 
 Specifically, I'm
 
-- making the yc of ai safety
-- researching cyber offense capabilities in llms
-- researching deceptive conversational patterns in llms
+- making the YC of AI safety
+- researching cyber offense capabilities in LLMs
+- researching deceptive conversational patterns in LLMs
 - running international research hackathons
-- creating new ways of researching
-- giving a talks here and there
+- creating new ways of doing research

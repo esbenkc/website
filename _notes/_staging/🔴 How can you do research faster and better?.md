@@ -1,0 +1,5 @@
+- I write papers, these take a long time, results take shorter
+- Usually, tweet threads are the only things that are read anyways - blog posts sometimes too
+- Our Discord chat in the Lab is a treasure trove of appendix information
+- How much time does it take to write the paper vs. everything else?
+- 

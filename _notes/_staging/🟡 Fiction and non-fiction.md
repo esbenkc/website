@@ -5,6 +5,19 @@ categories:
   - writing
   - research
 ---
+For me, much of what I enjoy in good thoughts is the extension of my experience. The ability to see the world in a new light.
+
+Any text that fulfills this purpose is masterful, in my view.
+
+Where the communication of worldviews then becomes an exercise of art itself brings me great ecstase:
+- Black Swan framing statistical theory as Extremistan and Mediocristan to explain economic fallacies. 
+- McElreath's stories to showcase Bayesian statistics.
+- Buzsaki's reframing of *fundamental concepts* of thought; a complex exercise in meta-thinking.
+
+How can we then learn to rewrite our non-fiction into stories; be these fiction or not?
+
+---
+
 I have found myself accidentally reading [quite a few non-fiction books](https://www.goodreads.com/review/list/72754976?shelf=read). I enjoy knowing things and there is a joy in understanding a topic deeper.
 
 Recently, [I happened upon](https://tinhouse.com/podcast/ursula-k-le-guin-words-are-my-matter/) a quote from the writer Ursula K. De Guin where she mentions that she wants to fall asleep when reading non-fiction.
@@ -22,19 +35,6 @@ Of prose, Tao Te Ching, 1984, the Bible, The Witcher, Foundation Series, Djævle
 The boundary between these lists seems the same that separates science and art. A faulty belief that they are separate in the first place (and need to stay so).
 
 So what does one get out of these texts?
-
----
-
-For me, much of what I enjoy in good thoughts is the extension of my experience. The ability to see the world in a new light.
-
-Any text that fulfills this purpose is masterful, in my view.
-
-Where the communication of worldviews then becomes an exercise of art itself brings me great ecstase:
-- Black Swan framing statistical theory as Extremistan and Mediocristan to explain economic fallacies. 
-- McElreath's stories to showcase Bayesian statistics.
-- Buzsaki's reframing of *fundamental concepts* of thought; a complex exercise in meta-thinking.
-
-How can we then learn to rewrite our non-fiction into stories; be these fiction or not?
 
 ---
 
