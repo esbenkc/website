@@ -1,0 +1,7 @@
+- Livestreaming science, how to get knowledge
+- Podcasts with intelligent folks
+- Everything is on the internet
+- Conditions for free speech?
+	- Not judge too quickly
+	- Reasoning
+- Something something 

@@ -1,6 +1,8 @@
 ---
 title: Audiovisual reading
-categories: tools,research
+categories:
+  - research
+  - tools
 date: 2023-07-04
 ---
 How should we read in the 21st century? This post introduces modern methods for reading and discusses the philosophy of speed-reading.
