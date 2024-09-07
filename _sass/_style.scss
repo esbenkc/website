@@ -144,6 +144,27 @@ body {
   --color-ma-hover: var(--flexoki-magenta-400);
 }
 
+html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+@media (max-width: 600px) {
+  .hide-on-small-screen {
+    display: none;
+  }
+}
+
+@media (max-width: 860px) {
+  :root {
+    --wrap-normal: 88vw;
+    --wrap-wide: 100vw;
+    --input-width: 100%;
+  }
+}
+
 body {
   color-scheme: light dark;
   -webkit-font-smoothing: antialiased;
@@ -157,10 +178,6 @@ body {
   font-size: 1.8rem;
   font-size: calc(1.5rem + 0.25vw);
   color: var(--color-tx-normal);
-
-  @media (min-width: 820px) {
-    font-size: 1.2rem;
-  }
 }
 
 .wrap {
