@@ -11,7 +11,7 @@ An agent could be a **Discord bot** that receives every message on a server _(Pe
 
 However, an agent could also be a **cyber operative bot** which receives orders to find vulnerabilities on government websites and executes a _Perception -> Brain -> Action_ sequence on its own plans.
 
-![Agent architecture](/agent-arch.png)
+<img src="{{site.baseurl}}/assets/agent-arch.png">
 
 _From [Xi et al. (2023)](https://arxiv.org/pdf/2309.07864#page=43.13)_
 
