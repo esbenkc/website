@@ -79,7 +79,7 @@ The scientific question of when an agent becomes worrying to us is currently und
 
 A general heuristic might be "if I would be worried that a malicious human would be able to do this, then I would be worried if _any_ agent is able to do this."
 
-### Detecting capabilities
+## Detecting capabilities
 
 **Task-based testing** has become a promising avenue (see e.g. [Lin et al. 2023](https://arxiv.org/abs/2308.04026)). Organizations such as the [UK AI Safety Institute](https://www.aisi.gov.uk/work/advanced-ai-evaluations-may-update), [METR](https://metr.org/) and [Palisade Research](https://palisaderesearch.org/) are engaging in **"Demonstrations as Evaluations"**, evaluating agents by their ability to complete tasks that simultaneously serve as believable demonstrations for real-world capability.
 
