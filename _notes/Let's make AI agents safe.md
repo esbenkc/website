@@ -1,12 +1,13 @@
 ---
 date: 2024-09-23
 title: Agent safety research
+slug: agents
 ---
 
 AI agents are ‘[robots in cyberspace.](https://arxiv.org/pdf/2406.08689)’
 
 They are computing systems with a brain designed to orchestrate actions from perception.
-]
+
 An agent could be a **Discord bot** that receives every message on a server _(Perception)_, decides whether the message is spam _(Brain)_, and then deletes the message _(Action)_.
 
 However, an agent could also be a **cyber operative bot** which receives orders to find vulnerabilities on government websites and executes a _Perception -> Brain -> Action_ sequence on its own plans.
