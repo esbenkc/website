@@ -1,4 +1,10 @@
 ---
+created: 2024-10-08T23:58:59.340Z
+---
+---
+created: 2024-10-08T23:57:42.353Z
+---
+---
 date: 2024-09-23
 title: Agent safety research
 slug: agents
