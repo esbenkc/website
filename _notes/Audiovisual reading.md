@@ -1,15 +1,17 @@
 ---
-created: 2024-10-08T23:58:59.340Z
----
----
-created: 2024-10-08T23:57:42.352Z
----
----
-title: Audiovisual reading
-categories:
-  - research
-  - tools
-date: 2023-07-04
+{
+  "created": "2024-10-08T23:58:59.340Z",
+  "title": "Audiovisual reading",
+  "categories": [
+    "research",
+    "tools"
+  ],
+  "date": "2023-07-04",
+  "totalKeystrokes": 20,
+  "totalActiveTime": 16.45,
+  "wordCount": 2398,
+  "wordsPerMinute": 9993.75
+}
 ---
 How should we read in the 21st century? This post introduces modern methods for reading and discusses the philosophy of speed-reading.
 ## The value of a good book

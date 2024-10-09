@@ -1,17 +1,13 @@
 ---
-created: 2024-10-08T23:58:59.342Z
----
----
-created: 2024-10-08T23:57:42.354Z
----
----
-title: "Cyborgism in 2024"
-slug: cyborg
-totalKeystrokes: 57
-totalActiveTime: 44.87
-wordCount: 46
-wordsPerMinute: 61.51
 created: 2024-10-07T16:21:03.234Z
+totalKeystrokes: 2469
+totalActiveTime: 529.25
+wordCount: 46
+wordsPerMinute: 5.23
+title: Cyborg in 2024
+categories:
+  - tools
+slug: cyborg
 ---
 - What does it mean to be a cyborg (cyborg engineer intro)
 - What are the tools of the trade

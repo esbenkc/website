@@ -1,12 +1,13 @@
 ---
-created: 2024-10-08T23:58:59.342Z
----
----
-created: 2024-10-08T23:57:42.354Z
----
----
-title: Progress as a tool for peace
-slug: progress-peace
+{
+  "created": "2024-10-08T23:58:59.342Z",
+  "totalKeystrokes": 42,
+  "totalActiveTime": 76.67,
+  "wordCount": 8,
+  "wordsPerMinute": 8.35,
+  "slug": "einstein",
+  "title": "Einstein is a geocentrist"
+}
 ---
 Relativity
 
