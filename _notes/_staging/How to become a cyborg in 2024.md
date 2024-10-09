@@ -1,10 +1,10 @@
 ---
 created: 2024-10-07T16:21:03.234Z
-totalKeystrokes: 2469
-totalActiveTime: 529.25
+totalKeystrokes: 1
+totalActiveTime: 0
 wordCount: 46
-wordsPerMinute: 5.23
-title: Cyborg in 2024
+wordsPerMinute: 0
+title: How to become a cyborg in 2024
 categories:
   - tools
 slug: cyborg

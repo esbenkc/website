@@ -1,10 +1,13 @@
 ---
-created: 2024-10-08T23:58:59.342Z
+{
+  "created": "2024-10-08T23:58:59.342Z",
+  "totalKeystrokes": 7,
+  "totalActiveTime": 20.81,
+  "wordCount": 550,
+  "wordsPerMinute": 4828.8
+}
 ---
----
-created: 2024-10-08T23:57:42.354Z
----
----
+
 title: Fiction and non-fiction
 date: 
 categories:
