@@ -26,6 +26,8 @@ module Jekyll
         Jekyll.logger.info "SimpleAnalyticsGenerator:", "Current analytics data: #{current_analytics_data.length} pages"
       end
 
+      # To see the above, run jekyll build with the --verbose flag
+
       # Process data
       if total_analytics_data && current_analytics_data
         # Process all pages and posts
