@@ -9,8 +9,6 @@ Welcome to the future — we're at a crossroads. We face an AI ban and a surveil
 
 {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
 {% for note in recent_notes limit: 1 %}
-
-<p class="muted font-ui"><a class="internal-link muted" href="{{note.url}}">Latest</a></p>
 {% capture note_content %}
 
   <h2>{{note.title}}</h2>
@@ -29,6 +27,8 @@ Welcome to the future — we're at a crossroads. We face an AI ban and a surveil
 </div>
 
 {% endfor %}
+
+<hr>
 
 <!-- TOP NOTES AS DEFINED BY SIMPLEANALYTICS -->
 
