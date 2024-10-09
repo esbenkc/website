@@ -35,7 +35,7 @@ Welcome to the future — we're at a crossroads. We face an AI ban and a surveil
 <ul>
 {% assign top_notes = site.notes | sort: "pageviews" | reverse %}
 {% for note in top_notes limit: 2 %}
-<li><a href="{{note.url}}">{{note.title}} ({{note.currentpageviews}} recent reads)</a>
+<li><a href="{{note.url}}">{{note.title}} ({{note.currentpageviews}} recent reads)</a></li>
 
 {% endfor %}
 
@@ -47,7 +47,7 @@ Welcome to the future — we're at a crossroads. We face an AI ban and a surveil
 {% assign popular_notes = site.notes | sort: "currentpageviews" | reverse %}
 {% for note in popular_notes limit: 2 %}
 
-<li><a href="{{note.url}}">{{note.title}} ({{note.currentpageviews}} recent reads)</a>
+<li><a href="{{note.url}}">{{note.title}} ({{note.currentpageviews}} recent reads)</a></li>
 
 {% endfor %}
 
