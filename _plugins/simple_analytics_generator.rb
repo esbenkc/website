@@ -23,6 +23,7 @@ module Jekyll
       if total_analytics_data && current_analytics_data  
         Jekyll.logger.info "SimpleAnalyticsGenerator:", "Fetched analytics data successfully."
         Jekyll.logger.info "SimpleAnalyticsGenerator:", "Total analytics data: #{total_analytics_data.length} pages"
+        Jekyll.logger.info "SimpleAnalyticsGenerator:", "#{current_analytics_data}"
         Jekyll.logger.info "SimpleAnalyticsGenerator:", "Current analytics data: #{current_analytics_data.length} pages"
       end
 
@@ -48,6 +49,9 @@ module Jekyll
             analytics_page = data['value'].gsub(%r{^/|/$}, '')
             analytics_page == page_path
           end
+
+          Jekyll.logger.info "SimpleAnalyticsGenerator:", "Page: #{page_path}"
+          Jekyll.logger.info "SimpleAnalyticsGenerator:", "Data: #{total_page_analytics}"
 
           # Find the analytics data for this page in current data
           current_page_analytics = current_analytics_data.find do |data|

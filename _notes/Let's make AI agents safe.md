@@ -1,14 +1,15 @@
 ---
 created: 2024-10-08T23:58:59.340Z
----
+totalKeystrokes: 16
+totalActiveTime: 45.85
+wordCount: 2817
+wordsPerMinute: 3686.37
 ---
 created: 2024-10-08T23:57:42.353Z
----
----
 date: 2024-09-23
 title: Agent safety research
 slug: agents
----
+
 
 AI agents are ‘[robots in cyberspace.](https://arxiv.org/pdf/2406.08689)’
 
