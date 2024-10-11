@@ -1,4 +1,28 @@
 ---
+created: 2024-10-11T03:32:11.796Z 
+title: 🟢 For-profit AI safety
+slug: _staging/🟢 For-profit AI safety
+date: 2024-10-11T03:32:11.796Z
+categories: 
+  - category1
+---
+---
+created: 2024-10-10T00:30:36.306Z 
+title: 🟢 For-profit AI safety
+slug: _staging/🟢 For-profit AI safety
+date: 2024-10-10T00:30:36.306Z
+categories: 
+  - category1
+---
+---
+created: 2024-10-09T21:54:38.682Z 
+title: 🟢 For-profit AI safety
+slug: _staging/🟢 For-profit AI safety
+date: 2024-10-09T21:54:38.682Z
+categories: 
+  - category1
+---
+---
 created: 2024-10-08T23:58:59.342Z
 ---
 ---

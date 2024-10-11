@@ -1,4 +1,28 @@
 ---
+created: 2024-10-11T03:32:11.793Z 
+title: 🔴 Why are game developers the best software engineers?
+slug: _staging/🔴 Why are game developers the best software engineers?
+date: 2024-10-11T03:32:11.793Z
+categories: 
+  - category1
+---
+---
+created: 2024-10-10T00:30:36.306Z 
+title: 🔴 Why are game developers the best software engineers?
+slug: _staging/🔴 Why are game developers the best software engineers?
+date: 2024-10-10T00:30:36.306Z
+categories: 
+  - category1
+---
+---
+created: 2024-10-09T21:54:38.682Z 
+title: 🔴 Why are game developers the best software engineers?
+slug: _staging/🔴 Why are game developers the best software engineers?
+date: 2024-10-09T21:54:38.682Z
+categories: 
+  - category1
+---
+---
 created: 2024-10-08T23:58:59.342Z
 ---
 ---

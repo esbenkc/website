@@ -1,4 +1,28 @@
 ---
+created: 2024-10-11T03:32:11.793Z 
+title: 🔴 Silly people
+slug: _staging/🔴 Silly people
+date: 2024-10-11T03:32:11.793Z
+categories: 
+  - category1
+---
+---
+created: 2024-10-10T00:30:36.306Z 
+title: 🔴 Silly people
+slug: _staging/🔴 Silly people
+date: 2024-10-10T00:30:36.306Z
+categories: 
+  - category1
+---
+---
+created: 2024-10-09T21:54:38.682Z 
+title: 🔴 Silly people
+slug: _staging/🔴 Silly people
+date: 2024-10-09T21:54:38.682Z
+categories: 
+  - category1
+---
+---
 created: 2024-10-08T23:58:59.342Z
 ---
 ---

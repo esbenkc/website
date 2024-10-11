@@ -1,4 +1,28 @@
 ---
+created: 2024-10-11T03:32:11.792Z 
+title: Doing research, fast
+slug: _staging/Doing research, fast
+date: 2024-10-11T03:32:11.792Z
+categories: 
+  - category1
+---
+---
+created: 2024-10-10T00:30:36.305Z 
+title: Doing research, fast
+slug: _staging/Doing research, fast
+date: 2024-10-10T00:30:36.305Z
+categories: 
+  - category1
+---
+---
+created: 2024-10-09T21:54:38.682Z 
+title: Doing research, fast
+slug: _staging/Doing research, fast
+date: 2024-10-09T21:54:38.682Z
+categories: 
+  - category1
+---
+---
 {
   "created": "2024-10-09T05:04:40.130Z",
   "title": "Untitled",
