@@ -23,8 +23,9 @@ module Jekyll
       if total_analytics_data && current_analytics_data  
         Jekyll.logger.info "SimpleAnalyticsGenerator:", "Fetched analytics data successfully."
         Jekyll.logger.info "SimpleAnalyticsGenerator:", "Total analytics data: #{total_analytics_data.length} pages"
-        Jekyll.logger.info "SimpleAnalyticsGenerator:", "#{current_analytics_data}"
+        Jekyll.logger.info "SimpleAnalyticsGenerator:", "#{total_analytics_data}"
         Jekyll.logger.info "SimpleAnalyticsGenerator:", "Current analytics data: #{current_analytics_data.length} pages"
+        Jekyll.logger.info "SimpleAnalyticsGenerator:", "#{current_analytics_data}"
       end
 
       # To see the above, run jekyll build with the --verbose flag
@@ -63,6 +64,7 @@ module Jekyll
           if total_page_analytics
             page.data['pageviews'] = total_page_analytics['pageviews']
             page.data['visitors'] = total_page_analytics['visitors']
+            Jekyll.logger.info "SimpleAnalyticsGenerator:", "TOTAL Pageviews: #{total_page_analytics['pageviews']} Visitors: #{total_page_analytics['visitors']} Page: #{page_path}"
           else
             page.data['pageviews'] = 0
             page.data['visitors'] = 0
@@ -72,6 +74,7 @@ module Jekyll
           if current_page_analytics
             page.data['currentpageviews'] = current_page_analytics['pageviews']
             page.data['currentvisitors'] = current_page_analytics['visitors']
+            Jekyll.logger.info "SimpleAnalyticsGenerator:", "TOTAL Pageviews: #{total_page_analytics['pageviews']} Visitors: #{total_page_analytics['visitors']} Page: #{page_path}"
           else
             page.data['currentpageviews'] = 0
             page.data['currentvisitors'] = 0
