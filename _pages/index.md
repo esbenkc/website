@@ -34,7 +34,7 @@ Welcome to the future — we're at a crossroads. We face an AI ban and a surveil
 
 <ul>
 {% assign top_notes = site.notes | sort: "pageviews" | reverse %}
-{% for note in top_notes limit: 2 %}
+{% for note in top_notes limit: 3 %}
 <li><time datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: "%b %-d '%y"}}</time>, <a href="{{note.url}}">{{note.title}}</a> ({{note.currentpageviews}} reads)</li>
 
 {% endfor %}

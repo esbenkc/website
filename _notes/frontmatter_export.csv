@@ -1,16 +1,24 @@
-title,date,categories,file,slug,totalKeystrokes,totalActiveTime,wordCount,wordsPerMinute,created
-For-profit AI safety,2024-04-22,0,_staging/🟢 For-profit AI safety.md,,,,,,
-Fiction and non-fiction,0,0,_staging/🟡 Fiction and non-fiction.md,,,,,,
-0,,,_staging/🔴 What will brain augmentation look like?.md,,,,,,
-Western philosophy is consumerist,,,_staging/🔴 Western philosophy is consumerist.md,,,,,,
-0,,,_staging/🔴 Metaphors I like for AI.md,,,,,,
-0,,,_staging/🔴 Incentives and AI safety.md,,,,,,
-0,,,_staging/🔴 Are citations = impact?.md,,,,,,
-0,,,_staging/🔴 AI is good.md,,,,,,
-What to do on a holiday?,,,_staging/What to do on a holiday?.md,holiday,33,1093.97,179,9.82,2024-10-08T10:57:26.440Z
-Structuring scientific platforms,,,_staging/Structuring scientific platforms.md,science-platforms,24,,,,
-Progress as a tool for peace,,,_staging/Progress as a tool for peace.md,progress-peace,,,,,
-Progress as a tool for peace,,,_staging/Einstein is a geocentrist.md,progress-peace,,,,,
-Cyborgism in 2024,,,_staging/Cyborgism in 2024.md,cyborg,54,25.89,62,143.67,
-Agent safety research,2024-09-23,,Let's make AI agents safe.md,agents,,,,,
-Audiovisual reading,2023-07-04,0,Audiovisual reading.md,,,,,,
+created,title,slug,date,categories,totalKeystrokes,totalActiveTime,wordCount,wordsPerMinute,file
+2024-10-11T03:32:11.793Z,Go on a yearly hiatus,hiatus,2024-10-11T03:32:11.793Z,category1,26,107.26,1373,933.36,Take a hiatus every year.md
+2024-10-11T03:32:11.790Z,Let's make AI agents safe,Let's make AI agents safe,2024-10-11T03:32:11.790Z,category1,,,,,Let's make AI agents safe.md
+2024-10-11T03:32:11.796Z,🟢 For-profit AI safety,_staging/🟢 For-profit AI safety,2024-10-11T03:32:11.796Z,category1,,,,,_staging/🟢 For-profit AI safety.md
+2024-10-11T03:32:11.795Z,🔴 The absolute hack of putting things on the internet,_staging/🔴 The absolute hack of putting things on the internet,2024-10-11T03:32:11.795Z,category1,,,,,_staging/🔴 The absolute hack of putting things on the internet.md
+2024-10-11T03:32:11.793Z,🔴 What will brain augmentation look like?,_staging/🔴 What will brain augmentation look like?,2024-10-11T03:32:11.793Z,category1,,,,,_staging/🔴 What will brain augmentation look like?.md
+2024-10-11T03:32:11.793Z,🟡 Fiction and non-fiction,_staging/🟡 Fiction and non-fiction,2024-10-11T03:32:11.793Z,category1,,,,,_staging/🟡 Fiction and non-fiction.md
+2024-10-11T03:32:11.793Z,🔴 Silly people,_staging/🔴 Silly people,2024-10-11T03:32:11.793Z,category1,,,,,_staging/🔴 Silly people.md
+2024-10-11T03:32:11.793Z,🔴 Why are game developers the best software engineers?,_staging/🔴 Why are game developers the best software engineers?,2024-10-11T03:32:11.793Z,category1,,,,,_staging/🔴 Why are game developers the best software engineers?.md
+2024-10-11T03:32:11.793Z,🔴 How can you do research faster and better?,_staging/🔴 How can you do research faster and better?,2024-10-11T03:32:11.793Z,category1,,,,,_staging/🔴 How can you do research faster and better?.md
+2024-10-11T03:32:11.793Z,🔴 Western philosophy is consumerist,_staging/🔴 Western philosophy is consumerist,2024-10-11T03:32:11.793Z,category1,,,,,_staging/🔴 Western philosophy is consumerist.md
+2024-10-11T03:32:11.793Z,🔴 Metaphors I like for AI,_staging/🔴 Metaphors I like for AI,2024-10-11T03:32:11.793Z,category1,,,,,_staging/🔴 Metaphors I like for AI.md
+2024-10-11T03:32:11.793Z,🔴 Incentives and AI safety,_staging/🔴 Incentives and AI safety,2024-10-11T03:32:11.793Z,category1,,,,,_staging/🔴 Incentives and AI safety.md
+2024-10-11T03:32:11.793Z,Structuring scientific platforms,_staging/Structuring scientific platforms,2024-10-11T03:32:11.793Z,category1,,,,,_staging/Structuring scientific platforms.md
+2024-10-11T03:32:11.793Z,The Day I lost faith in humanity,_staging/The Day I lost faith in humanity,2024-10-11T03:32:11.793Z,category1,,,,,_staging/The Day I lost faith in humanity.md
+2024-10-11T03:32:11.792Z,🔴 Democratization of conversation,_staging/🔴 Democratization of conversation,2024-10-11T03:32:11.792Z,category1,,,,,_staging/🔴 Democratization of conversation.md
+2024-10-11T03:32:11.792Z,🔴 Are citations = impact?,_staging/🔴 Are citations = impact?,2024-10-11T03:32:11.792Z,category1,,,,,_staging/🔴 Are citations = impact?.md
+2024-10-11T03:32:11.792Z,🔴 AI is good,_staging/🔴 AI is good,2024-10-11T03:32:11.792Z,category1,,,,,_staging/🔴 AI is good.md
+2024-10-11T03:32:11.792Z,Progress as a tool for peace,_staging/Progress as a tool for peace,2024-10-11T03:32:11.792Z,category1,,,,,_staging/Progress as a tool for peace.md
+2024-10-11T03:32:11.792Z,Einstein is a geocentrist,_staging/Einstein is a geocentrist,2024-10-11T03:32:11.792Z,category1,,,,,_staging/Einstein is a geocentrist.md
+2024-10-11T03:32:11.792Z,How to become a cyborg in 2024,_staging/How to become a cyborg in 2024,2024-10-11T03:32:11.792Z,category1,,,,,_staging/How to become a cyborg in 2024.md
+2024-10-11T03:32:11.792Z,Experimental incentives,_staging/Experimental incentives,2024-10-11T03:32:11.792Z,category1,,,,,_staging/Experimental incentives.md
+2024-10-11T03:32:11.792Z,"Doing research, fast","_staging/Doing research, fast",2024-10-11T03:32:11.792Z,category1,,,,,"_staging/Doing research, fast.md"
+2024-10-11T03:32:11.789Z,Audiovisual reading,Audiovisual reading,2024-10-11T03:32:11.788Z,category1,,,,,Audiovisual reading.md
