@@ -1,14 +1,14 @@
 ---
 created: 2024-10-11T03:32:11.789Z
 title: Audiovisual reading
-slug: audiovisual
+slug: audiovisual-reading
 date: 2024-10-11T03:32:11.788Z
 categories:
   - tools
-totalKeystrokes: 30
-totalActiveTime: 55.56
+totalKeystrokes: 33
+totalActiveTime: 70.82
 wordCount: 2398
-wordsPerMinute: 2882.73
+wordsPerMinute: 2214.02
 ---
 How should we read in the 21st century? This post introduces modern methods for reading and discusses the philosophy of speed-reading.
 ## The value of a good book
