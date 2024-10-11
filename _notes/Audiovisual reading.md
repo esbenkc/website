@@ -1,40 +1,16 @@
 ---
-created: 2024-10-11T03:32:11.789Z 
-title: Audiovisual reading
-slug: Audiovisual reading
-date: 2024-10-11T03:32:11.788Z
-categories: 
-  - category1
----
----
-created: 2024-10-10T00:30:36.302Z 
-title: Audiovisual reading
-slug: Audiovisual reading
-date: 2024-10-10T00:30:36.302Z
-categories: 
-  - category1
----
----
-created: 2024-10-09T21:54:38.680Z 
-title: Audiovisual reading
-slug: Audiovisual reading
-date: 2024-10-09T21:54:38.680Z
-categories: 
-  - category1
----
----
 {
-  "created": "2024-10-08T23:58:59.340Z",
+  "created": "2024-10-11T03:32:11.789Z",
   "title": "Audiovisual reading",
+  "slug": "audiovisual",
+  "date": "2024-10-11T03:32:11.788Z",
   "categories": [
-    "research",
-    "tools"
+    "category1"
   ],
-  "date": "2023-07-04",
-  "totalKeystrokes": 20,
-  "totalActiveTime": 16.45,
+  "totalKeystrokes": 25,
+  "totalActiveTime": 44.88,
   "wordCount": 2398,
-  "wordsPerMinute": 9993.75
+  "wordsPerMinute": 4029.69
 }
 ---
 How should we read in the 21st century? This post introduces modern methods for reading and discusses the philosophy of speed-reading.
