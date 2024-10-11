@@ -1,17 +1,14 @@
 ---
-{
-  "created": "2024-10-11T03:32:11.793Z",
-  "title": "Go on a yearly hiatus",
-  "slug": "hiatus",
-  "date": "2024-10-11T03:32:11.793Z",
-  "categories": [
-    "category1"
-  ],
-  "totalKeystrokes": 26,
-  "totalActiveTime": 107.26,
-  "wordCount": 1373,
-  "wordsPerMinute": 933.36
-}
+created: 2024-10-11T03:32:11.793Z
+title: Go on a yearly hiatus
+slug: hiatus
+date: 2024-10-11T03:32:11.793Z
+categories:
+  - slice of life
+totalKeystrokes: 58
+totalActiveTime: 149.71
+wordCount: 1373
+wordsPerMinute: 561.52
 ---
 With amazing opportunities knocking on your door, it's incredibly hard to dedicate time to ensure that you stay connected and aligned with who you are.
 
