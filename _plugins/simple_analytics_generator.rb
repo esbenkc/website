@@ -51,9 +51,6 @@ module Jekyll
             analytics_page == page_path
           end
 
-          Jekyll.logger.info "SimpleAnalyticsGenerator:", "Page: #{page_path}"
-          Jekyll.logger.info "SimpleAnalyticsGenerator:", "Data: #{total_page_analytics}"
-
           # Find the analytics data for this page in current data
           current_page_analytics = current_analytics_data.find do |data|
             analytics_page = data['value'].gsub(%r{^/|/$}, '')
@@ -74,11 +71,13 @@ module Jekyll
           if current_page_analytics
             page.data['currentpageviews'] = current_page_analytics['pageviews']
             page.data['currentvisitors'] = current_page_analytics['visitors']
-            Jekyll.logger.info "SimpleAnalyticsGenerator:", "TOTAL Pageviews: #{total_page_analytics['pageviews']} Visitors: #{total_page_analytics['visitors']} Page: #{page_path}"
+            Jekyll.logger.info "SimpleAnalyticsGenerator:", "CURRENT Pageviews: #{current_page_analytics['pageviews']} Visitors: #{current_page_analytics['visitors']} Page: #{current_page_analytics}"
           else
             page.data['currentpageviews'] = 0
             page.data['currentvisitors'] = 0
           end
+
+          Jekyll.logger.info("SimpleAnalyticsGenerator:", "Page: #{page_path} Total Pageviews: #{page.data['pageviews']} Visitors: #{page.data['visitors']} Current Pageviews: #{page.data['currentpageviews']} Visitors: #{page.data['currentvisitors']}")
         end
       else
         Jekyll.logger.warn "SimpleAnalyticsGenerator:", "Failed to fetch analytics data."
