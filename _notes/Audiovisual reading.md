@@ -1,17 +1,14 @@
 ---
-{
-  "created": "2024-10-11T03:32:11.789Z",
-  "title": "Audiovisual reading",
-  "slug": "audiovisual",
-  "date": "2024-10-11T03:32:11.788Z",
-  "categories": [
-    "category1"
-  ],
-  "totalKeystrokes": 25,
-  "totalActiveTime": 44.88,
-  "wordCount": 2398,
-  "wordsPerMinute": 4029.69
-}
+created: 2024-10-11T03:32:11.789Z
+title: Audiovisual reading
+slug: audiovisual
+date: 2024-10-11T03:32:11.788Z
+categories:
+  - tools
+totalKeystrokes: 30
+totalActiveTime: 55.56
+wordCount: 2398
+wordsPerMinute: 2882.73
 ---
 How should we read in the 21st century? This post introduces modern methods for reading and discusses the philosophy of speed-reading.
 ## The value of a good book

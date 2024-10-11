@@ -1,17 +1,14 @@
 ---
-{
-  "created": "2024-10-11T03:32:11.790Z",
-  "title": "Let's make AI agents safe",
-  "slug": "agents",
-  "date": "2024-10-11T03:32:11.790Z",
-  "categories": [
-    "category1"
-  ],
-  "totalKeystrokes": 166,
-  "totalActiveTime": 301.08,
-  "wordCount": 2800,
-  "wordsPerMinute": 581.57
-}
+created: 2024-10-11T03:32:11.790Z
+title: Let's make AI agents safe
+slug: agents
+date: 2024-10-11T03:32:11.790Z
+categories:
+  - research
+totalKeystrokes: 168
+totalActiveTime: 304.85
+wordCount: 2800
+wordsPerMinute: 555.64
 ---
 AI agents are ‘[robots in cyberspace.](https://arxiv.org/pdf/2406.08689)’
 
