@@ -57,7 +57,7 @@ Any good cyborg needs good hardware. Let's go through a few important accessorie
 
 ### Software
 The software you use is crucial in enhancing productivity and integrating technology into daily life. Below is a curated list organized by category. Icons indicate whether it's an app (✱) or a Chromium plugin (🌎).
-#### Productivity and Workflow
+#### Productivity and workflow
 
 - ✱ **Alfred:** Alfred is an open Spotlight replacement that gives you some extreme access to complex tooling through the simple cmd + space interaction format that is a magician's wand in the right hands. I have many custom workflows installed (e.g. one that runs a custom chatbot when I write `ch`) along with writing replacements (e.g. `::apart` getting replaced by `https://apartresearch.com`) and an overall much better file navigation experience than the absolute crime of a default file system, Finder.
 - ✱ **RescueTime:** This is both a cross-platform app (mobile, desktop, you name it) and a Chromium plugin. It logs all your activity and gives you easy statistics of your productive and unproductive time on your devices. Others like it exist but RescueTime seems like the best from my experimentation.
@@ -66,7 +66,7 @@ The software you use is crucial in enhancing productivity and integrating techno
 - **✱ Google Drive:** The only lack of Notion is its collaborative editing and document preparation. For this, use Google Docs. It's just so good. I hear from the financial experts that you need Excel for those 25% of features that are lacking in Sheets. Maybe one day I'll feel that lack, but not yet. By using function calls in Sheets, you can already achieve a lot.
 - ✱ **Discord:** Discord is a nearly free Slack alternative with more features, better user management, and without Slackbot spamming you all the time. What more can you ask for? The only feature differential is the Connections feature but it's not enough to switch over. Due to my work, I of course still have a few Slacks lying around.
 
-#### System Enhancements
+#### System enhancements
 
 - **MacOS:** A very lackluster operating system due to weird design choices and lack of control. This might also be a gift, as I cannot spend endless hours customizing it. And it's UNIX.
 - **Fixing MacOS:**
@@ -78,8 +78,9 @@ The software you use is crucial in enhancing productivity and integrating techno
 - ✱ **Nordpass:** You need some kind of password manager and at Apart, we use Nordpass. It works quite well, though I would expect most others to work equally as well.
 - ✱ **Cloud Backup:** It's definitely important to use a proper cloud backup provider. I always have all my devices completely backed up using a relatively custom solution from a Danish provider.
 - ✱ **Mailing apps:** Interestingly, I've used the default Mac Mail app for a long while but I'm looking at newer solutions such as Superhuman or HEY. Of course, I host my own email server though most business-related activity goes through Google Workspace.
+- ✱ **Google Photos:** Backing up my photos with Google Photos has been a superb experience and relatively cheap.
 
-#### Browsers and Extensions
+#### Browsers and extensions
 
 - ✱ **Edge:** I transitioned to Edge when Sydney came out and the result is that I still use it and enjoy it. Being a Chromium-based browser, it's compatible with all Chrome plugins, has a free AGI at your hand, and neat side-browsing features.
 - 🌎 **Vimium:** I once learned vim like a true software aficionado and found it horribly inefficient due to my use of more than 15 different programs in a day. Vimium is a Chromium plugin that allows you to click all links, bookmark page locations, and much more. Very enjoyable if you want to go keyboard-native.
@@ -87,8 +88,9 @@ The software you use is crucial in enhancing productivity and integrating techno
 - 🌎 **Video Speed Controller:** Another Chromium plugin. This one allows you to control the speed of videos you watch beyond the limits of your player. I mostly use it to quickly get all YouTube videos to 2x or even 3.5x.
 - 🌎 **Privacy Badger:** Chromium plugin that helps you block known trackers.
 - 🌎 **Thumbnail Rating Bar:** Chromium plugin specifically for YouTube that shows the log likes/dislike ratio on thumbnails. Allows you to quickly skip hundreds of useless videos.
+- ✱ **LokiNet:** This helps you connect to the onion network. 'nough said.
 
-#### Development Tools
+#### Development tools
 
 - ✱ **VSCode:** VSCode is my tool of choice for programming along with the **zsh command line**. I use both in conjunction with each other and do most of my git interaction in CLI. For VSCode, I use the high contract black theme.
 - ✱ **Docker:** This is a devops tool to build standardized virtual servers, meaning that you make a pretend-computer on your computer with specific hardware specifications. Was used to build cyber challenges for [Abydos](https://cybercapabilities.org/).
@@ -96,49 +98,38 @@ The software you use is crucial in enhancing productivity and integrating techno
 - ✱ **VNC Viewer:** I use VNC to connect to our Raspberry Pi as you would with Teamviewer on another device. This is very useful for a standard Debian RP and saves a lot of hassle.
 - **✱ RStudio:** RStudio keeps being the best R IDE and since I love tidyverse and ggplot2 to death, I still use this for a lot of projects. These days, I try to standardize to Python since R is really only used in academia.
 
-#### Creative Software
+#### Creative software
 
-- ✱ **Unreal Engine:** To create hyperreal applications for your VR device or just for fun, use Unreal Engine. **Blender** is its open source compliment and is an amazing piece of software.
 - ✱ **TouchDesigner:** TouchDesigner is for the artist within you that just wants to connect nodes to create amazing generative beauty. Sit with it for a night and use it to power your projectors if you end up nerding too long in it. Cyborgs need to keep a high quality of aesthetic to create tomorrow's interfaces.
+- ✱ **Unreal Engine:** To create hyperreal applications for your VR device or just for fun, use Unreal Engine. **Blender** is its open source compliment and is an amazing piece of software.
 - ✱ **OBS or Loom:** As any good cyborg knows, information is freedom. Hence, you should be able to share your discoveries and what you build. Set up OBS or Loom to record your screen and any webcams or external cameras. An amazing tool for all sorts of live video transmission across protocols and services.
-
-#### Security and Privacy
-
-- ✱ **LokiNet:** This helps you connect to the onion network. 'Nough said.
-
-#### Multimedia and Backup
-
-- ✱ **Google Photos:** Backing up my photos with Google Photos has been a superb experience and relatively cheap.
 
 ## The AI tools
 I'll quickly detail how I personally use AI here. Again, this excludes websites, specific cases within research projects, or even custom implementations of research assistants.
-#### Language Models and Assistants
+#### Language models and assistants
 
 - **ChatGPT:** I had canceled my ChatGPT subscription after Claude Sonnet 3.5 came out but reactivated it after o1. o1 is highly capable and I recommend offloading most of your tasks to o1, if possible. However, the ChatGPT UI lacks a lot of AI-native features that Claude has down.
 - **Claude:** I use Claude for most tasks since it has a nice balance of high capability, artifact editing, and workspaces. Of course, we also experiment on Claude models. Claude is also the most helpful when I want to build custom software.
 - **Edge Copilot:** When you install Edge, you get access to a web Copilot that can e.g. explain debugging output from the console or anything on this web page. It's pretty great.
 - **Alfred chatbot:** As mentioned earlier, I have a Workflow in Alfred 5 that enables me to use an N-context window chatbot through the OpenAI API. It runs a simple GPT-4o but is immensely useful for super quick queries.
+- **Replicate:** A unified API to most open source models. Used for many of our experiments.
+- **TogetherApi:** A unified APi to most open source models. Used for most of our experiments with open source models.
+- **MistralAI:** Also mostly used for our experiments, MistralAI has access to their APIs.
 
-#### Development and Coding
+#### Development and coding
 
 - **Github Copilot:** I use Github Copilot in VSCode which is immensely helpful. It's mostly for the in-context programming. I have tried Cursor and its derivatives though the "aha!" moment is still missing for me.
 - **Agents:** AI agents should really be designed for your own use cases and the base models are becoming capable enough that agents work. I've built multiple agents assisting with research, interacting on our Discord servers, or running custom operations on CRON jobs through my server.
 
-#### Search and Interface Tools
+#### Search and interface tools
 
 - **Perplexity:** Perplexity is a search engine using AI summarization. It's mostly able to find pretty obscure things I want to find, though it's sometimes lacking.
 - **Godmode:** This is an open source interface to work with multiple AI apps at once.
 
-#### Creative AI Tools
+#### Creative tools
 
 - **Midjourney:** Since I love art and design, I use Midjourney quite a bit to brainstorm and create cover images for various random projects and ideas. We also use it for work.
 - **Udio:** I'm part of [Utilibeats](https://utilibeats.com/) where we create tracks using AI, mastered with AI, and augmented by humans. Highly recommend getting the dirt cheap subscription and playing around with music. See what the future looks like.
-
-#### APIs and Open-Source Models
-
-- **Replicate:** A unified API to most open source models. Used for many of our experiments.
-- **TogetherApi:** A unified APi to most open source models. Used for most of our experiments with open source models.
-- **MistralAI:** Also mostly used for our experiments, MistralAI has access to their APIs.
 
 ### Cyborgism
 Cyborgism is the branch of cyborgs that dedicate their mind and brain to interfacing with AI. It's the group that consistently have the most understanding of what AIs are capable of and the group that developed Loom, among other software. Their original goal was to use AI to assist with ambitious alignment research, though it seems like they've rather gone deeper into how AI thinks instead.
@@ -147,25 +138,37 @@ Cyborgism is the branch of cyborgs that dedicate their mind and brain to interfa
 With the lists above, I hope you're inspired to become a cyborg. I've found the number of people in this category surprisingly small, with a larger majority in the *hacker*, *tech founder*, or *researcher* boxes. I think we'll see a much larger adoption soon, however. Especially as the tech-native generations are growing up and developing the future with the help of LLMs.
 
 For example, I can easily imagine us living among robot kin, establishing relations with chatbots, and riding autonomous vehicles. And we need to make ready for this. To make my expectations concrete, let me make a few predictions:
+
+#### Neural and sensory augmentation
+
 - Within ten years, Neuralink will be available for healthy consumers, either privately or publicly (80%).
-- Within a year, we'll have GPT-5 (...or equivalent) (80%) which will upend the agent economy, creating a slow internet (or the expectation thereof), where every action needs checking and security to avoid [cyber offense risks](https://cybercapabilities.org/) and tragedies of the commons (70%).
-- Open weights models will catch up to end-2025 performance, even to o1, at the end of 2026. With this, private models will begin to be developed (65%).
-- Apple Vision Pro will be seen as a *financial* flop (if it isn't already) in a year (95%).
-- Consumer AR glasses will become commonplace (1% adoption) for public wear by 2030 (75%).
-- Before 2035, we will reach something akin to a singularity; a 20% US GDP growth year-over-year, two years in a row, largely driven by general intelligence (30% probability, highly dependent on whether the US gets its shit together).
-- Despite the tele-operated robots at the "We, Robot" event, the Optimus bot will be seen as the most capable personal robotic platform by 2028 (30%) (and I will own one; conditional 90%).
-- Most human-like internet activity (browsing, information gathering, app interaction) will be conducted by agents in 2030 (90%).
-- Trillions of persistent generally intelligent agents will exist on the web by 2030 (90%), as defined by unique memory-persistent instantiations of an arbitrary number of agent types.
-- The *consumer interface* with machines, independent of platform, will *not* be by text in 2035 (80%). Gesture or voice are the expected contenders but I won't leave direct-to-neural out of the race.
-- Biometric authentication will be the de-facto 2FA for most password-protected systems (70%). Iris scanners will be available on your edge device (whether phone or AR device; conditional 50%).
-- The web (50%< of ISP traffic) will have federated or decentralized identity controls that tracks and ensures actions are done by humans before 2035 (75%).
 - Pharmaceutical brain augmentation (whether nanobots or drugs, excluding caffeine, nicotine, and pseudoscience) will be commonplace and estimated at 1%< use within the working population by 2035 (90%).
 - Integrated biometric tracking (e.g. glucose measurement devices, watches do not count) will be commonplace (1%< of the US population) by 2030 (80%).
 - Neural brain augmentation using external hardware will be commonplace (1%< of the US population) by 2040 (80%).
 - Sensory augmentation (e.g. magnetic field sensors, wider color spectrum, and cyberspace connection) will be commonplace (1%< of US population) by 2040 (70%).
 - Networked human-mind interfaces between multiple humans will be possible by 2060 (60%).
-- A sentient and fully digital lifeform will be spawned before 2035, irrespective of the rights it receives (99% and I will argue my case).
 - A complete human brain upload with confirmation of the retention of memories and general cognitive ability (barring designed augmentation) will be completed before 2060 (40%).
+
+#### Artificial intelligence and agents
+
+- Within a year, we'll have GPT-5 (...or equivalent) (80%) which will upend the agent economy, creating a slow internet (or the expectation thereof), where every action needs checking and security to avoid [cyber offense risks](https://cybercapabilities.org/) and tragedies of the commons (70%).
+- Open weights models will catch up to end-2025 performance, even to o1, at the end of 2026. With this, private models will begin to be developed (65%).
+- Most human-like internet activity (browsing, information gathering, app interaction) will be conducted by agents in 2030 (90%).
+- Trillions of persistent generally intelligent agents will exist on the web by 2030 (90%), as defined by unique memory-persistent instantiations of an arbitrary number of agent types.
+- A sentient and fully digital lifeform will be spawned before 2035, irrespective of the rights it receives (99% and I will argue my case).
+- Despite the tele-operated robots at the "We, Robot" event, the Optimus bot will be seen as the most capable personal robotic platform by 2028 (30%) (and I will own one; conditional 90%).
+- Before 2035, we will reach something akin to a singularity; a 20% US GDP growth year-over-year, two years in a row, largely driven by general intelligence (30% probability, highly dependent on whether the US gets its shit together).
+
+#### Augmented reality and interfaces
+
+- Consumer AR glasses will become commonplace (1% adoption) for public wear by 2030 (75%).
+- The _consumer interface_ with machines, independent of platform, will _not_ be by text in 2035 (80%). Gesture or voice are the expected contenders but I won't leave direct-to-neural out of the race.
+- Apple Vision Pro will be seen as a _financial_ flop (if it isn't already) in a year (95%).
+
+#### Biometric authentication and web identity
+
+- Biometric authentication will be the de-facto 2FA for most password-protected systems (70%). Iris scanners will be available on your edge device (whether phone or AR device; conditional 50%).
+- The web (50%< of ISP traffic) will have federated or decentralized identity controls that tracks and ensures actions are done by humans before 2035 (75%).
 
 Phew, that's quite a list! It goes beyond the cyborg life but is inherently about how cognition will look in the future. I'm excited for the potential and worried for the risks. But I bet it'll be awesome. The status quo has never seemed more breakable as now.
 ## Reading list
