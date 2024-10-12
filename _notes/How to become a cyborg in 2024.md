@@ -139,8 +139,10 @@ I'll quickly detail how I personally use AI here. Again, this excludes websites,
 - **Replicate:** A unified API to most open source models. Used for many of our experiments.
 - **TogetherApi:** A unified APi to most open source models. Used for most of our experiments with open source models.
 - **MistralAI:** Also mostly used for our experiments, MistralAI has access to their APIs.
+
 ### Cyborgism
 Cyborgism is the branch of cyborgs that dedicate their mind and brain to interfacing with AI. It's the group that consistently have the most understanding of what AIs are capable of and the group that developed Loom, among other software. Their original goal was to use AI to assist with ambitious alignment research, though it seems like they've rather gone deeper into how AI thinks instead.
+
 ## What will the 21st century bring to cyborgs? (+ 19 predictions)
 With the lists above, I hope you're inspired to become a cyborg. I've found the number of people in this category surprisingly small, with a larger majority in the *hacker*, *tech founder*, or *researcher* boxes. I think we'll see a much larger adoption soon, however. Especially as the tech-native generations are growing up and developing the future with the help of LLMs.
 
