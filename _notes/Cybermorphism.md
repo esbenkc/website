@@ -5,8 +5,7 @@ slug: cybermorphism
 date: 2024-10-14
 categories: []
 ---
-> *"A graphic representation of data abstracted from the banks of every computer in the human system. Unthinkable complexity. Lines of light ranged in the nonspace of the mind, clusters and constellations of data."*
-> - Neuromancer
+> *"A graphic representation of data abstracted from the banks of every computer in the human system. Unthinkable complexity. Lines of light ranged in the nonspace of the mind, clusters and constellations of data."* - Neuromancer
 
 Imagine a future where the boundaries between human and machine blur - a world where our minds extend beyond our biological limits, seamlessly integrating with technology. This isn’t science fiction; it’s happening now.
 
@@ -91,7 +90,8 @@ Traditionally, cognitive psychology has tried to find the neural representations
 
 As you imagine what it is like to be a neural network in the brain, you will realize that you have no clue what "reasoning", "will" or "emotions" are and simply do what is optimal, e.g. model "time" as a sequence similar to how you would model "a series of location", meaning that these are not two different types of encodings[^2].
 
-[*2]: See e.g. this figure I made for a paper studying neural augmentation of a simulated robot that has to learn how its own limbs function. ![[https://blog.kran.ai/Pasted image 20241014163238.png]]
+[*2]: See e.g. this figure I made for a paper studying neural augmentation of a simulated robot that has to learn how its own limbs function. 
+	![[https://blog.kran.ai/Pasted image 20241014163238.png]]
 
 For more context, I highly recommend reading the book ["The Brain From Inside Out"](https://academic.oup.com/book/35081). If you're already in the literature of the brain, ["The Continuity of Mind"](https://global.oup.com/academic/product/the-continuity-of-mind-9780195370782) should be of interest to shake up your thinking.
 
