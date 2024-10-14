@@ -88,10 +88,7 @@ Traditionally, cognitive psychology has tried to find the neural representations
 ![[Pasted image 20241014011734.png]]
 *"How much hardware do you want for your cybermorphosis?" "Yes." (the [NIRSport2](https://nirx.net/nirsport) after the 30 minute setup process, ready to capture brain signals)*
 
-As you imagine what it is like to be a neural network in the brain, you will realize that you have no clue what "reasoning", "will" or "emotions" are and simply do what is optimal, e.g. model "time" as a sequence similar to how you would model "a series of location", meaning that these are not two different types of encodings[^2].
-
-[*2]: See e.g. this figure I made for a paper studying neural augmentation of a simulated robot that has to learn how its own limbs function.
-	![[Pasted image 20241014163238.png]]
+As you imagine what it is like to be a neural network in the brain, you will realize that you have no clue what "reasoning", "will" or "emotions" are and simply do what is optimal, e.g. model "time" as a sequence similar to how you would model "a series of location", meaning that these are not two different types of encodings.
 
 For more context, I highly recommend reading the book ["The Brain From Inside Out"](https://academic.oup.com/book/35081). If you're already in the literature of the brain, ["The Continuity of Mind"](https://global.oup.com/academic/product/the-continuity-of-mind-9780195370782) should be of interest to shake up your thinking.
 
@@ -202,4 +199,5 @@ There's plenty more where these come from but I'll leave it at that. A lot of cy
 > Like swarms of avatars subsisting on a star  
 > Desiccant souls in searing light exposed  
 > Moths to the raging inferno of the binary
+> 
 > *[Cybermorphism / Mainframe](https://youtu.be/1LQfI_H5nBg)*
