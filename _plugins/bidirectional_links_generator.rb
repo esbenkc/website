@@ -11,9 +11,19 @@ class BidirectionalLinksGenerator < Jekyll::Generator
 
     link_extension = !!site.config["use_html_extension"] ? '.html' : ''
 
-    # Convert all Wiki/Roam-style double-bracket link syntax to plain HTML
-    # anchor tag elements (<a>) with "internal-link" CSS class
+    # Process each document (note or page)
     all_docs.each do |current_note|
+      # First, handle image links: ![[image.png]]
+      # This should be done before processing regular links
+      current_note.content.gsub!(/!\[\[(.+?)(?:\|(.+?))?\]\]/) do
+        image_filename = Regexp.last_match(1).strip
+        alt_text = Regexp.last_match(2) ? Regexp.last_match(2).strip : File.basename(image_filename, File.extname(image_filename))
+        # Adjust the image path according to your site's structure
+        image_url = "#{site.baseurl}/assets/images/#{image_filename}"
+        "<img src='#{image_url}' alt='#{alt_text}' />"
+      end
+
+      # Now, process regular note links
       all_docs.each do |note_potentially_linked_to|
         note_title_regexp_pattern = Regexp.escape(
           File.basename(
@@ -69,7 +79,7 @@ class BidirectionalLinksGenerator < Jekyll::Generator
             <span class='invalid-link-brackets'>[[</span>
             \\1
             <span class='invalid-link-brackets'>]]</span></span>
-        HTML
+      HTML
       )
     end
 
