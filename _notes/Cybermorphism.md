@@ -13,7 +13,7 @@ I've lived most of my life experimenting with this human-machine interface, taki
 
 Let's dive in.
 
-![[https://blog.kran.ai/assets/Pasted image 20241014002141.png]]
+![[Pasted image 20241014002141.png]]
 *The [XREAL AR glasses](https://us.shop.xreal.com/products/xreal-air-2-pro) running through my [Jelly Star](https://kran.ai/jelly) with the [Beam stabilizer](https://us.shop.xreal.com/products/xreal-beam)[^1]*
 
 [^1]: While writing this post fully in these same glasses, I notice the Beam Pro seems to have come out along with another iteration of the XREAL Air 2 Ultra glasses. I think my bank account will cry soon.
@@ -24,7 +24,7 @@ The concept of cybermorphism is inspired by the extended mind thesis, _Neuromanc
 
 Cognition is always a moving goalpost and it changes much more than we care to think. Twenty years ago, no one used social media and now we check out phones [159](https://explodingtopics.com/blog/social-media-usage) times per day, changing how attention and cognition work. Books weren't readily available before the [15th century](https://en.wikipedia.org/wiki/Printing_press) and even then, free speech only arose in the [19th century](https://www.freespeechhistory.com/2019/11/21/episode-34-the-age-of-reaction-the-fall-and-rise-of-free-speech-in-19th-century-europe/). 
 
-![[https://blog.kran.ai/assets/Pasted image 20241014005709.png]]
+![[Pasted image 20241014005709.png]]
 *The NIRSport2 SoTA fNIRS neuroimaging headset ([timelapse](https://youtu.be/5rnJgt_Xu-Q))*
 
 As a result, you might argue that the common person's cognition before the 19th century was both more limited by lack of diverse intellectual input (pre-training) and by lack of expression (rewarded behavior), leading to a [lack of original cognition](https://en.wikipedia.org/wiki/Newspeak).
@@ -36,7 +36,7 @@ Hence, **cybermorphism does not expect this trend of cognition improvement to st
 
 A good example of technology embracing the [extended mind thesis](https://academic.oup.com/analysis/article-abstract/58/1/7/153111?redirectedFrom=fulltext&login=false) (the idea that our cognition extends beyond our brain and into our tools) is [Obsidian](https://obsidian.md/). Our brain seems to think in concepts connected by neural pathways and not in information hierarchies like documentation systems and Obsidian embraces this.
 
-![[https://blog.kran.ai/assets/Pasted image 20241014014105.png]]
+![[Pasted image 20241014014105.png]]
 *Each dot on the left is a page in my second brain with two examples of page text on the right - pink links represent references to other pages*
 
 Similarly, we find that cybermorphosis changes between generations. The same people who grew up with the internet now [don't know what files are](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z). It's all `cmd + k`, Spotlight and apps. 
@@ -50,7 +50,7 @@ Similar to the maxims of engineering, we improve cognition by 1) removing unnece
 
 Replacing file systems removes unnecessary hierarchical information navigation (est. 5 seconds), second brain note-taking replaces the need for strictly organized note-taking systems (est. 3 minutes per note) and [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) automates completing a project (est. $$\infty$$). Similarly, my hardware setups are usually optimized for easy access across the 20+ programs I use on a daily basis.
 
-![[https://blog.kran.ai/assets/XREAL_1.gif]]
+![[XREAL_1.gif]]
 *Live view of my XREAL AR virtual monitor interface*
 
 Of course, improving cognition isn't just about optimizing a specific process. Most of it will be about *creating new cognitive abilities*.
@@ -61,7 +61,7 @@ The best example of such a feature is **the keyboard**. A [new limb](https://x.c
 
 For people with reduced bodily function (such as [paraplegics](https://www.sciencedirect.com/topics/medicine-and-dentistry/paraplegia) and [Stephen Hawking](https://www.washington.edu/doit/dr-stephen-hawking-case-study-using-technology-communicate-world#:~:text=By%20squeezing%20his%20cheek%20muscles,speak%22%20through%20a%20voice%20synthesizer.)), these new modalities of action (so-called "external effectors") enable them to live a semi-normal life. And while Hawking in the early 2010s used the few muscles he could still control in a clever way to communicate, today's Neuralink enables [Noland Arbaugh to pull Civ VI all-nighters](https://www.reddit.com/r/civ/comments/1ctgui8/noland_arbaugh_using_neuralink_to_play_civ6/). The progress here is insane.
 
-![[https://blog.kran.ai/assets/Pasted image 20241014012236.png]]
+![[Pasted image 20241014012236.png]]
 *Me calibrating the EyeLink 1000, a 1,000 hz 0.15° accuracy eye tracker*
 
 I still remember when we received a grant to purchase the (very expensive) [NIRSport2](https://nirx.net/nirsport) for our lab which was the state-of-the-art fNIRS neuroimaging equipment at the time. About a week after we received it, the revolutionary [Kernel Flow](https://www.kernel.com/products) came out, shaking up the field completely.
@@ -85,13 +85,13 @@ Each of these areas can be modeled separately as an "inside-out" process. Simila
 
 Traditionally, cognitive psychology has tried to find the neural representations of abilities such as "reasoning", "will" and "emotions". These come from the 1890 book ["The Principles of Psychology"](https://psychclassics.yorku.ca/James/Principles/index.htm) which at the time was a revolutionary book. However, it is outdated now.
 
-![[https://blog.kran.ai/assets/Pasted image 20241014011734.png]]
+![[Pasted image 20241014011734.png]]
 *"How much hardware do you want for your cybermorphosis?" "Yes." (the [NIRSport2](https://nirx.net/nirsport) after the 30 minute setup process, ready to capture brain signals)*
 
 As you imagine what it is like to be a neural network in the brain, you will realize that you have no clue what "reasoning", "will" or "emotions" are and simply do what is optimal, e.g. model "time" as a sequence similar to how you would model "a series of location", meaning that these are not two different types of encodings[^2].
 
 [*2]: See e.g. this figure I made for a paper studying neural augmentation of a simulated robot that has to learn how its own limbs function. 
-	![[https://blog.kran.ai/assets/Pasted image 20241014163238.png]]
+	![[Pasted image 20241014163238.png]]
 
 For more context, I highly recommend reading the book ["The Brain From Inside Out"](https://academic.oup.com/book/35081). If you're already in the literature of the brain, ["The Continuity of Mind"](https://global.oup.com/academic/product/the-continuity-of-mind-9780195370782) should be of interest to shake up your thinking.
 
@@ -103,7 +103,7 @@ However, it turns out that we don't need the computer to do any coding at all. W
 
 I highly recommend the [short paper from Neuralink](https://www.jmir.org/2019/10/e16194/) detailing how they record neural activity.
 
-![[https://blog.kran.ai/assets/Pasted image 20241014005626.png]]
+![[Pasted image 20241014005626.png]]
 *My profile's YouTube cover image of 3 years is the MRI recording of my [T1 scan](https://radiopaedia.org/articles/t1-weighted-image) seen on my [About page](https://blog.kran.ai/about)*
 
 ## The future of cognition
@@ -124,7 +124,7 @@ I'll give my quick take on brain-computer interfaces first:
 - **Brain reading:** The only consumer hardware for neural interfacing that will be useful will be invasive hardware like the Neuralink, the Utah Array or ECoG and non-invasive neuroimaging will be seen as too imprecise for direct control. 
 - **Brain stimulation:** tDCS and TMS will not be adopted for augmenting neural function outside clinical settings without being dangerous or simply not useful. Again, invasive neural stimulation will win out.
 
-![[https://blog.kran.ai/assets/Pasted image 20241014012320.png]]
+![[Pasted image 20241014012320.png]]
 *Sending direct current through my brain with the PlatoWork tDCS beta device from my friends over at [PlatoScience](https://www.platoscience.com/pages/product)*
 
 I personally use the XREAL Air 2 Pro glasses and there is an incredible immersion in a virtual monitor setup. I wrote my thesis completely in the Oculus Link interface on my Quest II. This will only become more normal and I expect these devices to become miniaturized and more useful in everyday life.
@@ -154,7 +154,7 @@ Last but not least, robots will be a thing and take away much of the need for us
 
 This is awesome. I expect cyborgism to be the frontier of the most useful and interesting cybermorphic interaction and convergence with AI.
 
-![[https://blog.kran.ai/assets/Pasted image 20241014171721.png]]
+![[Pasted image 20241014171721.png]]
 *[The Loom](https://generative.ink/posts/loom-interface-to-the-multiverse/) - an interface into the multiverse of LLM completions*
 
 As an AI safety researcher, I've drunk the Kool-Aid that AI will be transformative for society. In [Rob Bensinger's words](https://x.com/robbensinger/status/1801306833325592759), I'm an AGI alarmist. I expect AGI to bring immense good and have the potential to destroy society. I also expect that we can solve most of the issues with some globally ambitious engineering.
