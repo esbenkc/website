@@ -17,7 +17,6 @@ Let's dive in.
 *The [XREAL AR glasses](https://us.shop.xreal.com/products/xreal-air-2-pro) running through my [Jelly Star](https://kran.ai/jelly) with the [Beam stabilizer](https://us.shop.xreal.com/products/xreal-beam)[^1]*
 
 [^1]: While writing this post fully in these same glasses, I notice the Beam Pro seems to have come out along with another iteration of the XREAL Air 2 Ultra glasses. I think my bank account will cry soon.
-
 ## Cybermorphism
 
 The concept of cybermorphism is inspired by the extended mind thesis, _Neuromancer_ and "tools for thought". It's about expanding cognition, reaching beyond our 20th century cognition and creating a tech-enabled existence.
