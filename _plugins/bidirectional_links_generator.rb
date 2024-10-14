@@ -20,7 +20,7 @@ class BidirectionalLinksGenerator < Jekyll::Generator
         alt_text = Regexp.last_match(2) ? Regexp.last_match(2).strip : File.basename(image_filename, File.extname(image_filename))
         # Adjust the image path according to your site's structure
         image_url = "#{site.baseurl}/assets/#{image_filename}"
-        "<img src='#{image_url}' alt='#{alt_text}' style='margin: 0 auto;display: block;'/>"
+        "<img src='#{image_url}' alt='#{alt_text}' style='margin-right: auto;display: block;'/>"
       end
 
       # Now, process regular note links
