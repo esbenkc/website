@@ -13,14 +13,27 @@ class BidirectionalLinksGenerator < Jekyll::Generator
 
     # Process each document (note or page)
     all_docs.each do |current_note|
+      content = current_note.content
+
       # First, handle image links: ![[image.png]]
       # This should be done before processing regular links
-      current_note.content.gsub!(/!\[\[(.+?)(?:\|(.+?))?\]\]/) do
+      content.gsub!(/!\[\[(.+?)(?:\|(.+?))?\]\]/) do
         image_filename = Regexp.last_match(1).strip
         alt_text = Regexp.last_match(2) ? Regexp.last_match(2).strip : File.basename(image_filename, File.extname(image_filename))
         # Adjust the image path according to your site's structure
         image_url = "#{site.baseurl}/assets/#{image_filename}"
-        "<img src='#{image_url}' alt='#{alt_text}' style='margin: 0 auto;display: block;'/>"
+        "<img src='#{image_url}' alt='#{alt_text}' />"
+      end
+
+      # Now, handle italicized text immediately following images
+      # and wrap it in a centered paragraph
+      # Look for patterns where an image is followed by italicized text
+      content.gsub!(/(<img[^>]+>\s*)(\*{1,3}.*?\*{1,3})/) do
+        image_tag = Regexp.last_match(1)
+        italic_text = Regexp.last_match(2)
+        # Wrap the italicized text in a centered paragraph
+        centered_paragraph = "<p style='text-align:center;'>#{italic_text}</p>"
+        "#{image_tag}#{centered_paragraph}"
       end
 
       # Now, process regular note links
@@ -42,28 +55,28 @@ class BidirectionalLinksGenerator < Jekyll::Generator
 
         # Replace double-bracketed links with label using note title
         # [[A note about cats|this is a link to the note about cats]]
-        current_note.content.gsub!(
+        content.gsub!(
           /\[\[#{note_title_regexp_pattern}\|(.+?)(?=\])\]\]/i,
           anchor_tag
         )
 
         # Replace double-bracketed links with label using note filename
         # [[cats|this is a link to the note about cats]]
-        current_note.content.gsub!(
+        content.gsub!(
           /\[\[#{title_from_data}\|(.+?)(?=\])\]\]/i,
           anchor_tag
         )
 
         # Replace double-bracketed links using note title
         # [[a note about cats]]
-        current_note.content.gsub!(
+        content.gsub!(
           /\[\[(#{title_from_data})\]\]/i,
           anchor_tag
         )
 
         # Replace double-bracketed links using note filename
         # [[cats]]
-        current_note.content.gsub!(
+        content.gsub!(
           /\[\[(#{note_title_regexp_pattern})\]\]/i,
           anchor_tag
         )
@@ -72,15 +85,18 @@ class BidirectionalLinksGenerator < Jekyll::Generator
       # At this point, all remaining double-bracket-wrapped words are
       # pointing to non-existing pages, so let's turn them into disabled
       # links by greying them out and changing the cursor
-      current_note.content = current_note.content.gsub(
+      content.gsub!(
         /\[\[([^\]]+)\]\]/i, # match on the remaining double-bracket links
-        <<~HTML.delete("\n") # replace with this HTML (\\1 is what was inside the brackets)
+        <<~HTML.delete("\n") # replace with this HTML (\1 is what was inside the brackets)
           <span title='There is no note that matches this link.' class='invalid-link'>
             <span class='invalid-link-brackets'>[[</span>
             \\1
             <span class='invalid-link-brackets'>]]</span></span>
-      HTML
+        HTML
       )
+
+      # Update the note's content
+      current_note.content = content
     end
 
     # Identify note backlinks and add them to each note
