@@ -108,31 +108,43 @@ If you're like me and ended up in brain-computer interfacing research as a resul
 [^3]: At an event in San Francisco I was made privy to the inside stories of funding for brain augmentation and it doesn't look good. There's no funding except for pharmaceutical interventions that have American insurance companies as customers. As a result, the only progress has been slow ([Blackrock Neurotech](https://blackrockneurotech.com/products/utah-array/#:~:text=What%20is%20the%20Utah%20Array,degree%20of%20precision%20and%20accuracy.) and [Nirx](https://nirx.net/)), self-funded (see [Musk](https://neuralink.com/) and [Johnson](https://kernel.co/)) or from [the military](https://www.from-the-interface.com/DARPA-funding-BCI-research/) (yuck).
 
 Today, however, the hardware space is changing more than ever.
-### Cybermorphic hardware
-For me, cybermorphic hardware comes in many forms:
+### Cybermorph hardware
+For me, cybermorph hardware comes in many forms:
 - Multi-channel invasive neural implants for direct neural interaction (such as Neuralink)
 - Redesigned keyboards with new types of mapping to improve [WPM](https://en.wikipedia.org/wiki/Words_per_minute)
 - Direct current stimulation to key areas of the brain using tDCS devices
 - AR and VR glasses designed to improve how we interact with our extended mind
 - New external effectors such as bionic limbs and prosthetics
 
-I'll give my quick take on brain-computer interfaces first:
-- **Brain reading:** The only consumer hardware for neural interfacing that will be useful will be invasive hardware like the Neuralink, the Utah Array or ECoG and non-invasive neuroimaging will be seen as too imprecise for direct control. 
-- **Brain stimulation:** tDCS and TMS will not be adopted for augmenting neural function outside clinical settings without being dangerous or simply not useful. Again, invasive neural stimulation will win out.
+Brain-computer interfaces are one of the most obvious future developments in this space. To **read brain activity and use it to control our world**, the main interfaces will probably be invasive hardware like the Neuralink, the Utah Array or ECoG. Having worked with non-invasive hardware like fNIRS, fMRI and EEG, they are simply too imprecise to be used for actual control. Micro-EEG devices like the [Ear-EEG](https://en.wikipedia.org/wiki/Ear-EEG) might be useful for concentration monitoring ([and maybe even more](https://academic.oup.com/book/11166)).
+
+To transmit information directly to the brain, I similarly expect that direct neural interfaces will be the only viable path. [TMS](https://www.mayoclinic.org/tests-procedures/transcranial-magnetic-stimulation/about/pac-20384625) is currently used in clinical settings and has been shown to be useful in [memory recall tasks](https://www.sciencedirect.com/science/article/abs/pii/S0006899306029830) besides its current use against clinical depression. [tDCS](https://www.nature.com/articles/s41598-023-29792-6#:~:text=Transcranial%20direct%20current%20stimulation%20(tDCS)%20is%20an%20emerging%20neuromodulation%20technique,a%20targeted%20brain%20region3.) is also used in clinical settings but some interesting claims show their *very slight* stimulation impact might [boost creativity](https://www.platoscience.com/pages/science). Most applications of tDCS do not have any significant effect today, however.
+
+Direct neural stimulation will take the same form as Neuralinks and we'll have to see how cybersecurity will solve the problem of directly modifiable brains. The technology is pretty straightforward - you just send a very tiny shock into the electrodes put into the brain which causes the "activation threshold" (when a neuron fires) to be reached for neurons in its vicinity. 
+
+Right now, most reading and stimulation happens in the touch (writing) and limb movement (reading) parts of the brain because we have the best understanding of how these parts of the neocortex work and the limb movement part (the "motor cortex") is designed to control external hardware already (hands and arms).
+
+We can probably expect this reading and writing to expand to other regions of the brain, such as the language understanding areas on the left side of our brain. In the longer-term, this should enable us to communicate complex concepts directly to and from a computer with neural activation.
+
+It feels like the most progress in understanding cognition happens in brain-computer interface research because we get a direct signal if something works or doesn't work immediately. I'm personally looking forward to increasing our understanding of the front parts of our brain (usually proposed to relate to personality and higher-level planning) and the right side of our brain.
+
+Might we see a full computer controllable through a complete neural interface? Will we be able to get more brain power with external compute? Can we create safe and reliable interfaces without risk of short-circuiting our brains? Will it one day be possible to create a complete human upload and live as a digital sentience?
 
 ![[Pasted image 20241014012320.png]]
 *Sending direct current through my brain with the PlatoWork tDCS beta device from my friends over at [PlatoScience](https://www.platoscience.com/pages/product)*
 
-I personally use the XREAL Air 2 Pro glasses and there is an incredible immersion in a virtual monitor setup. I wrote my thesis completely in the Oculus Link interface on my Quest II. This will only become more normal and I expect these devices to become miniaturized and more useful in everyday life.
+On the other side of hardware, I personally use the XREAL Air 2 Pro glasses and there is an incredible immersion in a virtual monitor setup. I wrote my thesis completely in the Oculus Link interface on my Quest II and with developments such as the Apple Vision Pro, these seem to become more normal. With these kinds of devices miniaturized ([maybe even to the size of our pupils?](https://www.tandfonline.com/doi/full/10.1080/08164622.2023.2188176)), reality will probably continue to be augmented with even more information than they are today.
 
-I'll be very curious to see how our interfaces with computers change from text to neural, voice or gesture. How file systems will change into something even more exciting (maybe even the cyberspace from Neuromancer and cyberpunk fame). Using shortcuts is something completely ingrained for me but maybe these will become useless as AI changes how each button works.
+Gesture-based devices such as the [humane pin](https://humane.com/) have clearly been a flop until now, but with developments in personal assistants, these will probably become more common as reliability improves.
 
-With projects such as [Blueprint](https://blueprint.bryanjohnson.com/?srsltid=AfmBOooG5JBooJc7gypSscc0tJTvMs3QFxASTQMOgCd-DNkdcfwH2Hv1) and the development of [accurate body sensory hardware](https://www.youtube.com/thequantifiedscientist), it will be interesting to see how our interfaces will respond and track our bodily states. I imagine emotional modeling and stress response from our software will become commonplace since it's in many ways the next frontier of interface design.
+With projects such as [Blueprint](https://blueprint.bryanjohnson.com/?srsltid=AfmBOooG5JBooJc7gypSscc0tJTvMs3QFxASTQMOgCd-DNkdcfwH2Hv1) and the development of [accurate body sensory hardware](https://www.youtube.com/thequantifiedscientist), it will be interesting to see how our interfaces will respond and track our bodily states. Emotional modeling and stress response might become more commonplace to involve in our interfaces as these are currently not involved in our processes.
 
-Last but not least, robots will be a thing and take away much of the need for us to do menial labor. This of course comes with a much-needed introspection on how much risk we're willing to take by inviting superintelligent agents into our home and lives.
-### Predictions: Cybermorphic brain augmentation
+Another fascinating hardware question will be the development of robots. Users of [character.ai](https://beta.character.ai/chats) (a chatbot service where you can chat with personalities that remember your relationship) already seem to be spending [two hours a day](https://qz.com/a-startup-founded-by-former-google-employees-claims-tha-1850919360) chatting with fake beings. And if that trend continues, establishing personal relationships with robots and chatbots is not far off. One interesting problem will be the disconnect between the [chatbot's intelligence and the user's intelligence](https://x.com/EsbenKC/status/1831051342963769719) and how [robot rights](https://www.europarl.europa.eu/RegData/etudes/STUD/2016/563501/EPRS_STU%282016%29563501_EN.pdf) might evolve.
 
- To make the above statements more concrete, I'll share my quantitative predictions for the next 35 years: 
+Will we see neural, voice or gesture based interfaces overtake typing and text? How will file systems change into something even closer to how our brains work (potentially inspired by [vector databases](https://en.wikipedia.org/wiki/Vector_database) and maybe even the [cyberspace](https://www.historyofinformation.com/detail.php?id=983))? Can the integration of personal assistants make manual action sequences meaningless? Might we see more human user experiences that help you process and learn about your emotions as you interact?
+### Predictions: Cybermorph brain augmentation
+
+ To make the above discussion more concrete, I'll share some of my personal expectations for this century:
  
 - Within ten years, Neuralink will be available for healthy consumers, either privately or publicly (80%).
 - Pharmaceutical brain augmentation (whether nanobots or drugs, excluding caffeine, nicotine and pseudoscience) will be commonplace and estimated at 1%< use within the working population by 2035 (90%).
@@ -145,55 +157,38 @@ Last but not least, robots will be a thing and take away much of the need for us
 - Networked human-mind interfaces between multiple humans will be possible by 2060 (60%).
 - A complete human brain upload with confirmation of the retention of memories and general cognitive ability (barring designed augmentation) will be completed before 2060 (40%).
 
-### AI cybermorphism: Cyborgism
-[Cyborgism](https://cyborgism.wiki/) is the branch of cybermorphism whose practitioners dedicate their minds and brains to interfacing with AI. It's the group that consistently has the most understanding of what AIs are capable of and the group that develops the most advanced interfaces with LLM latent spaces. Their original goal was to use AI to assist with ambitious alignment research, though it seems like they have instead dived deeper into combining their cognition with AI.
+### Cyborgism
+[Cyborgism](https://cyborgism.wiki/) is a version of cybermorphism whose practitioners dedicate their minds and brains to interfacing with AI. It's the group that consistently has the most understanding of what AIs are capable of and the group that develops the most advanced interfaces into large language models (LLMs).
 
-This is awesome. I expect cyborgism to be the frontier of the most useful and interesting cybermorphic interaction and convergence with AI.
+This is awesome and I expect cyborgism to be the frontier of the most useful and interesting cybermorph interaction and convergence with AI. We can already see parts of this in the software *Loom* that lets one explore all the possible responses one might get from a language model like ChatGPT as a tree of paths. 
 
 ![[Pasted image 20241014171721.png]]
 *[The Loom](https://generative.ink/posts/loom-interface-to-the-multiverse/) - an interface into the multiverse of LLM completions*
 
-As an AI safety researcher, I've drunk the Kool-Aid that AI will be transformative for society. In [Rob Bensinger's words](https://x.com/robbensinger/status/1801306833325592759), I'm an AGI alarmist. I expect AGI to bring immense good and have the potential to destroy society. I also expect that we can solve most of the issues with some globally ambitious engineering.
+Human-AI interfaces are still in their early and experimental stages and it will be especially interesting to see how we will interface with the *latent* knowledge of AI, such as with Loom. The current interfaces still play into the last decade's paradigms and feel much like having an assistant ([Claude with artifacts](https://support.anthropic.com/en/articles/9945615-intro-to-artifacts) and [other agents](https://x.com/bshlgrs/status/1840577720465645960)) or a pair programming buddy ([Copilot](https://github.com/features/copilot) and [Cursor](https://www.cursor.com/)).
 
-Of course, this means I expect **extreme** implications for our shared conscious experience and global cognition from the introduction of AI. Programming tutorials are not necessary anymore because you can just ask an LLM for a study plan. Companies are replacing incumbent software because it has become so easy to develop in-house solutions. Everyone can have a PhD student in their pocket to answer any question. The democratization of knowledge is being finalized.
+Might we be able to augment our own brain by inserting live sidenotes into our text? Will future word processors show the trees of LLM completions as live paths to travel, all transmitted to us via voice in a multimodal interface while we type? Can we use [RAG](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/) to add references while we type and correct factual statements?
 
-I'll leave much of the speculations on how we as humans can engage meaningfully with superintelligent AI for other posts but suffice to say that cyborgism will be a big part of cybermorphism in the future.
+### Becoming cybermorph
 
-### Predictions: Where AI will be in ten years
+If you've read all the way to here, I hope you find this idea exciting! If we begin seeing cognition and intelligence as a moving target, the technologies we develop take on a completely different light and we'll be able to aim for new heights of experience.
 
-Again, let me back up the above discussion with concrete predictions that also go beyond cybermorphism:
+Because it looks to me like we won't just be able to solve problems with technology but that we'll actually be able to change how our consciousness and experience works in the first place!
 
-- Open weights models will catch up to end-2025 performance, even to o1, at the end of 2026. With this, private models will begin to be developed (65%).
-- Most human-like internet activity (browsing, information gathering, app interaction) will be conducted by agents in 2030 (90%).
-- Within a year, we'll have GPT-5 (...or equivalent) (80%) which will upend the agent economy, creating a slow internet (or the expectation thereof), where every action needs checking and security to avoid [cyber offense risks](https://cybercapabilities.org/) and tragedies of the commons (70%).
-- Trillions of persistent generally intelligent agents will exist on the web by 2030 (90%), as defined by unique memory-persistent instantiations of an arbitrary number of agent types.
-- A sentient and fully digital lifeform will be spawned before 2035, irrespective of the rights it receives (99% and I will argue my case).
-- Despite the tele-operated robots at the "We, Robot" event, the Optimus bot will be seen as the most capable personal robotic platform by 2028 (30%) (and I will own one; conditional 90%).
-- Before 2035, we will reach something akin to a singularity; a 20% US GDP growth year-over-year, two years in a row, largely driven by general intelligence (30% probability, highly dependent on the perpetuity of US democracy).
-- Biometric authentication will be the de-facto 2FA for most password-protected systems (70%). Iris scanners will be available on your "edge device" (whether phone or AR device; conditional 50%).
-- The web (50%< of ISP traffic) will have federated or decentralized identity controls that tracks and ensures actions are done by humans before 2035 (75%).
-### Become a Cybermorphic
-
-If you've read all the way to here, I hope you feel inspired to join me! Cybermorphics are of all ages and emerge from the founders of computer science and the Islamic scholars of the 1500s to today's AI tech founders and internet natives.
-
-Having worked with and talked with many cybermorphics (Chalmers, Buzsaki, Janus, Johnson, Nielsen, among others), I know they are all curious and conscientious individuals with visions for where we're going.
-
-The future of cognition looks incredibly exciting and the status quo has never seemed more malleable than now. 
-
-Godspeed.
+Good luck out there, fellow cybermorph.
 
 ## Reading list
-With this introduction, I don't want to leave you without anything to lead you down the rabbit hole. The non-fiction:
-- [ReadingWhatWeCan](https://readingwhatwecan.com/): This is a reading list I made for people to understand where AI is going. The first text by Vernor Vinge is especially good and succinct.
+With this introduction, I don't want to leave you without anything to lead you further down this rabbit hole. The non-fiction:
 - [Tools for Thought](https://numinous.productions/ttft/): This is an exploration of how we might develop tools for thought from Andy Matuschak and Michael Nielsen. You will find Andy on the internet and Michael in various podcasts talking about this concept as well.
 - [The Extended Mind](https://academic.oup.com/analysis/article-abstract/58/1/7/153111?redirectedFrom=fulltext&login=false): Foundational reading. Important to understand the philosophical underpinnings, as defined by Andy Clark and David Chalmers.
 - [The Brain from Inside Out](https://academic.oup.com/book/35081): A great book by the amazing neuroscientist György Buzsáki. Should be accessible to most tech-savvy or academically minded individuals but gives you the foundation to understand how we rewire our brains along with some of the history of brain sciences.
 - [Hacker's Manifesto](https://phrack.org/issues/7/3.html): Written by a cringe-y teen in the 80s after his arrest for hacking the school network, this became a cult classic for what hackers were really about.
+- Optionally, if you're interested in reading more about how AI might change our experience, check out [ReadingWhatWeCan](https://readingwhatwecan.com/), a reading list I made. The first text by Vernor Vinge is especially good and succinct.
 
 And the fiction:
 - [Neuromancer](https://www.goodreads.com/book/show/6088007-neuromancer): Probably one of the better depictions of what a cyberspace-enabled existence in a dystopian future looks like, this book combines untasteful culture with imaginings of what our interaction with cyberspace might be like.
 
-There's plenty more where these come from but I'll leave it at that. A lot of cybermorphic cultural heritage also extends from gender theory (abolishing static identities), accelerationism (the Nick Land type) and the early internet writings about what a decentralized web could really *be* for human identity.
+There's plenty more where these come from but I'll leave it at that. A lot of cybermorph cultural heritage also extends from gender theory (abolishing static identities), accelerationism (the Nick Land type) and the early internet writings about what a decentralized web could really *be* for human identity.
 
 > Like swarms of avatars subsisting on a star  
 > Desiccant souls in searing light exposed  
