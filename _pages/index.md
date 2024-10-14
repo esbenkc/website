@@ -32,20 +32,24 @@ Welcome to the future — we're at a crossroads. We face an AI ban and a surveil
 
 <!-- TOP NOTES AS DEFINED BY SIMPLEANALYTICS -->
 
+<h2>Most popular reads</h2>
+
 <ul>
 {% assign top_notes = site.notes | sort: "pageviews" | reverse %}
-{% for note in top_notes limit: 3 %}
+{% for note in top_notes limit: 100 %}
 <li><time datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: "%b %-d '%y"}}</time>, <a href="{{note.url}}">{{note.title}}</a> ({{note.pageviews}} reads)</li>
 
 {% endfor %}
 
 </ul>
 
+<h2>Currently popular</h2>
+
 <!-- CURRENTLY POPULAR NOTE -->
 
 <ul>
 {% assign popular_notes = site.notes | sort: "currentpageviews" | reverse %}
-{% for note in popular_notes limit: 2 %}
+{% for note in popular_notes %}
 
 <li><time datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: "%b %-d '%y"}}</time>, <a href="{{note.url}}">{{note.title}}</a> ({{note.currentpageviews}} recent reads)</li>
 
