@@ -58,12 +58,10 @@ The real solutions require us to think all the way to our terminal goal for why 
 
 ## Do the thing.
 
-Your goal, if you want to make real change, is to get to Step 3.
+Your goal, if you want to make real change, is to get to Step 3. Along the way, you might find people stuck at earlier stages. Don't let them curse you!
 
-And as you explore these topics, you'll find people stuck at the earlier stages:
-
-- **Step 1**: Evangelists, advocating for the "agreed-upon" solutions.
-- **Step 2**: Doomers, who see the problem's difficulty and give up on finding solutions.
+- **Stuck at step 1**: Evangelists, advocating for the "agreed-upon" solutions.
+- **Stuck at step 2**: Doomers, who see the problem's difficulty and give up on finding solutions.
 
 The message here is simple: find the true challenges, develop effective solutions, and make a real impact.
 
