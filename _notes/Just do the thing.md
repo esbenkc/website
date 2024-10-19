@@ -1,7 +1,7 @@
 ---
 title: '"Just do the thing"'
 slug: do
-date: 2024-10-20
+date: 2024-10-19
 categories:
   - slice of life
 ---
