@@ -34,7 +34,7 @@ Did we just propose solutions to all three problems as we thought of them?
 
 Yes, we did.
 
-**This is "the curse of the thing."**
+**This is the curse of the "thing."**
 ### Step 2: Realizing the limits of these solutions
 
 This is particularly an issue for salient problems—and global problems are definitely salient.
