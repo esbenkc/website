@@ -1,6 +1,6 @@
 ---
 title: '"Just do the thing"'
-slug: reasons
+slug: do
 date: 2024-10-20
 categories:
   - slice of life
@@ -12,10 +12,6 @@ The **"thing"** is usually whatever's hot at the moment among your peers.
 Sure, doing the "thing" can be valuable for getting started fast, but in many cases, it won't **actually solve problem**.
 
 ## Solving the problem
-
-[//]: # (In business, you will see the *problem* as whatever people want to give money to remove. Unfortunately, this means that the problems that will be solved are the problems that *people with money have*.)
-
-[//]: # (Since we want to change the world for the better, we have to think about what the *world's* problems are. In most cases, this leads you deep into [moral philosophy](https://open.spotify.com/episode/743xkmKv90p8Xee3vXHi0Y?si=DCAOrk8nQ1KYxvjWhqKZSw). However, for this discussion, let's keep to a "more people happy = more good" philosophy.)
 
 Often, people have a good story in their head of how their work will lead to the terminal goal of improving the world. Unfortunately, this story is just as often false.
 
