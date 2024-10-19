@@ -24,9 +24,9 @@ Take a quick moment to think about the world's biggest problems.
 ...
 
 Got a few? Great. Let's consider three examples and stick with them:
-1. Global warming will cause mass migration we aren't ready for and climate disasters will cause hundreds of thousands of deaths, both leading to geopolitical instability, so we need governments to reduce carbon emissions immediately.
-2. Language models are uninterpretable and it's important for us to understand what happens inside so we can change and stop AI agents as they manipulate financial markets or destroy a government's cybersecurity.
-3. Human minds won't be able to compete with the [ever growing intelligence of AI](https://epochai.org/) so we have to create brain-computer interfaces to improve human processing power.
+5. **Global warming:** Climate disasters and mass migration will cause thousands of deaths, both leading to geopolitical instability, so we need governments to reduce carbon emissions immediately.
+6. **Uninterpretable general intelligence:** Language models are uninterpretable and it's important for us to understand what happens inside of them so we can change and stop AI agents as they manipulate financial markets or destroy a government's cybersecurity.
+7. **Human minds vs AI:** Human minds won't be able to compete with the [ever growing intelligence of AI](https://epochai.org/) so we have to create brain-computer interfaces to improve human processing power to match.
 
 Wait a second.
 
