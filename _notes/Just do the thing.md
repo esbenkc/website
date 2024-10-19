@@ -65,8 +65,9 @@ Your goal, if you want to make real change, is to get to Step 3. Along the way, 
 
 The message here is simple: find the true challenges, develop effective solutions, and make a real impact.
 
-Now, go and do the thing!
+**Now, go and do the thing!**
 
+---
 
 [^7]: There is a valid case to be made for human-brain interfaces which is that the other methods simply won't work before human-level AGI is here and hence, it's just our best shot. Also, with all these footnotes, this is slowly turning into a Roger Penrose book.
 [^5]: Absolutely no shade to Neel (the author), I think he does fantastic work <3 And to his credit, you can see that many questions in the table are actually about solving a problem (e.g. the "Getting rid of superposition" category).
