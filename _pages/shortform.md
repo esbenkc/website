@@ -6,7 +6,7 @@ permalink: /shortform
 
 # Shortform
 
-This is a mix of short thoughts I've shared elsewhere.
+A small collection of select shortform thoughts.
 
 - [Errors in "build AGI first" AI safety arguments (2024)](https://x.com/EsbenKC/status/1846510460520316932)
 - [My opinion of Dan Hendrycks (2024)](https://x.com/EsbenKC/status/1841612210256167064)
